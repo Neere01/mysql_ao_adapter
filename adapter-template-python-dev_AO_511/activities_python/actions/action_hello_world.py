@@ -1,7 +1,7 @@
 """Module for the sample adapter classes. """
 
 from ..common.action_support.base import BaseAction
-from ..pythonutils.template_error import TemplateError
+from ..pythonutils.mysql_error import TemplateError
 from ..common.action_support.base import raise_action_error, check_input_params
 
 
